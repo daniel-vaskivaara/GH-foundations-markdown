@@ -10,7 +10,7 @@ jobs:
       - name: Hello world action step
         id: hello
         # uses: GH-foundations-markdown/docker-action-test@v1
-        uses: ./docker-action-test 
+        uses: ./docker-action-test@694724e5150898f7edd4a6f22b9d94a2c8f1e584 
         with:
           who-to-greet: 'Mona the Octocat'
       # Use the output from the `hello` step
